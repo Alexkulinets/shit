@@ -4,6 +4,10 @@ header {
   display: flex;
 
 }
+.test-possition{
+  width:375px;
+  height: auto;
+}
 *{
   margin:0;
   padding:0;
@@ -136,7 +140,7 @@ flex-direction: column;
 }
 
 main {
-width: 375px;
+width: 100%;
 height: 550px;
 }/*# sourceMappingURL=style.css.map */
 .header{
@@ -187,7 +191,7 @@ font-weight:700;
 }
 .container-two{
 background: rgb(255, 254, 254);
-width:375px;
+width:100%;
 height:600px;
 display: flex;
 align-items:center;
@@ -223,7 +227,7 @@ font-weight:700;
 
 
 .container-three-main{
-width:375px;
+width:100%;
 padding:30px 0px;
 height:auto;
 background:#F5F4FA;
@@ -294,7 +298,7 @@ text-align:center;
 
 
 .container-four{
-width:375px;
+width:100%;
 height:540px;
 display:flex;
 flex-direction:column;
@@ -324,7 +328,7 @@ border-radius:5px;
 
 
 .final-phone-container{
-width:375px;
+width:100%;
 height:570px;
 background: #2F303A;
 display:flex;
@@ -494,4 +498,38 @@ text-transform: none;
   -webkit-transform: scale(1, 1);
   transform: scale(1, 1);
 }
+}
+
+
+
+@media screen and (min-width:376px) and (max-width:425px) {
+  input{
+    width:425px;
+  }
+  .test-possition{
+    width:425px;
+  }
+  .container-three-main{
+    width:100%;
+    padding:30px 0px;
+    height:auto;
+    background:#F5F4FA;
+    display: flex;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+    }
+    .svg-block{
+      background:white;
+      width:200px;
+      height:90px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border:2px solid #AFB1B8;
+      border-radius:5px;
+      }
+      .container-four{
+        height:240px;
+      }
 }
