@@ -502,12 +502,12 @@ text-transform: none;
 
 
 
-@media screen and (min-width:376px) and (max-width:400px) {
+@media screen and (min-width:376px) and (max-width:385px) {
   input{
-    width:400px;
+    width:385px;
   }
   .test-possition{
-    width:400px;
+    width:385px;
   }
   .container-three-main{
     width:100%;
@@ -521,7 +521,7 @@ text-transform: none;
     }
     .svg-block{
       background:white;
-      width:175px;
+      width:165px;
       height:90px;
       display:flex;
       align-items:center;
