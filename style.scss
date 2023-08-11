@@ -505,12 +505,12 @@ text-transform: none;
 
 
 
-@media screen and (min-width:375px) and (max-width:385px) {
+@media screen and (min-width:375px) and (max-width:375px) {
   .input-one{
-    width:385px;
+    width:375px;
   }
   .test-possition{
-    width:385px;
+    width:375px;
   }
   .container-three-main{
     width:100%;
@@ -552,7 +552,7 @@ text-transform: none;
   background-color: white;
   font-family: $one;
   border: 1px solid #888888;
-  width: 380px;
+  width: 375px;
   height:600px;
   font-weight: bolder;
   display: flex;
