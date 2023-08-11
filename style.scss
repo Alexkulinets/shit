@@ -548,10 +548,11 @@ text-transform: none;
   display: none;
 }
 .popup-content {
+  align-self:center;
   background-color: white;
   font-family: $one;
   border: 1px solid #888888;
-  width: 375px;
+  width: 380px;
   height:600px;
   font-weight: bolder;
   display: flex;
