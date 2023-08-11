@@ -4,7 +4,7 @@ header {
 }
 
 .test-possition {
-  width: 375px;
+  width: 385px;
   height: auto;
 }
 
@@ -424,7 +424,7 @@ main {
 }
 
 .input-one {
-  width: 375px;
+  width: 385px;
   height: 50px;
   border-radius: 7.5px;
   background: #2F303A;
@@ -495,12 +495,12 @@ main {
     transform: scale(1, 1);
   }
 }
-@media screen and (min-width: 375px) and (max-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 385px) {
   .input-one {
-    width: 375px;
+    width: 385px;
   }
   .test-possition {
-    width: 375px;
+    width: 385px;
   }
   .container-three-main {
     width: 100%;
@@ -543,7 +543,7 @@ main {
   background-color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   border: 1px solid #888888;
-  width: 375px;
+  width: 385px;
   height: 600px;
   font-weight: bolder;
   display: flex;
@@ -585,7 +585,7 @@ button:hover {
 
 .input-texts-container {
   margin-top: 20px;
-  width: 375px;
+  width: 385px;
   height: auto;
   display: flex;
   flex-direction: column;
