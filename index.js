@@ -16,3 +16,26 @@ menuItem.forEach (function(menuItem) {
 })
 
 
+
+myButton.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+})
+
+$(function(){
+  $('#div1').click(function(){
+  if($(this).hasClass("che0")){
+      $(this).toggleClass("che1");
+  }
+  else{
+      $(this).toggleClass("che1");
+  }
+});
+});
