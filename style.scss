@@ -1891,14 +1891,16 @@ input{
       height:350px;
       display: flex;
       align-items:flex-end;
-      justify-content: space-between;
+      gap:30px;
     }
     .ouer-container__block_window{
       background-image: url("./Img/1024\ one.png");
-      width:370px;
+      width:50%;
       height:280px;
       display: flex;
       align-items: flex-end;
+      background-size: 100%;
+      overflow: hidden;
     }
     .ouer-container__block_window:nth-child(2){
       background-image: url("./Img/1024\ two.png");
@@ -1908,12 +1910,14 @@ input{
     }
     .ouer-container__block_window-text::after{
       background: #000;
-      width:370px;
       height:75px;
+      width:230%;
       filter: opacity(0.7);
       text-align:center;
       content:"Десктопні додатки";
-      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       font-family: $one;
       font-size: 17.5px;
       letter-spacing: 1px;
@@ -1922,9 +1926,12 @@ input{
     }
     .ouer-container__block_window-text.one::after{
       content:"Мобільні додатки";
+      width:240%;
     }
     .ouer-container__block_window-text.two::after{
       content:"Дизайнерські рішення";
+      width:200%;
+
     }
     .container-three-main-name{
     padding:30px;
