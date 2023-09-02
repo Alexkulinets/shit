@@ -521,7 +521,7 @@ main {
     transform: scale(1, 1);
   }
 }
-@media screen and (min-width: 375px) and (max-width: 385px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   .input-one {
     width: 385px;
   }
@@ -715,7 +715,7 @@ input {
   color: #2196F3;
 }
 
-@media screen and (min-width: 386px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .input-one {
     width: 385px;
   }
